@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*
+=========================================================================
+======================    NAVBAR      ===================================
+=========================================================================
+*/
+
+.navbar{
+  background-color: #353A40;
+  
+}
+#logo{
+  height: 70px;
+}
+
+#menu a{
+  color: #9a9ea0;
+  }
+
+#menu #comprarTickets{
+  color: #29A744;
+  margin-right: 5vw;
+  }
+
+
+  /*
+=========================================================================
+======================    INTRO      ====================================
+=========================================================================
+*/
+ h1{
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+ }
+
+
+#intro{
+    
+  background: url(imagenes/ba1.jpg);
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 52vw;
+  
+}
+
+
+/*CAPA TRANSPARENTE*/
+.capaTransparente{
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+}
+
+.content{
+  margin-right: 10%;
+}
+
+#botonVerde{
+  background-color: #29A744 !important;
+  
+}
+
+
+/*
+================================================================================
+============    CARDS      =====================================================
+================================================================================
+*/
+
+.botonCards{
+  font-size: small;
+}
+
+.card {
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+
+
+/*
+===========================================================================
+=================  OTRA SECCIÓN DESCRIPCION LUGAR =========================
+===========================================================================
+*/
+
+#HonoluluTexto{
+  background-color: #353A40;
+}
+
+
+
+/*
+===========================================================================
+=================  FORMULARIO  ============================================
+===========================================================================
+*/
+
+.subrayadoPuntos {
+  
+  text-decoration:underline dotted;
+}
+
+
+.botonesVerdes{
+  background-color: #96c93e !important;
+  
+  
+}
+.botonesVerdes:hover{
+  background-color: #1a487c !important;
+}
+
+
+.cardTicket{
+  border-radius: 0%;
+  
+}
+
+#cardEstudiante{
+  border-color: #0400ff;
+  
+}
+#cardTrainee{
+  border-color: #079274;
+}
+#cardJunior{
+  border-color: #cfdd06;
+}
+
+/*
+===========================================================================
+=================  FOOTER  ================================================
+===========================================================================
+*/
+
+
+.footer{
+  background: linear-gradient(to right, #1d3947,#1d4962,#1e5372);
+}
+
+.contenedorFooter a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center;
+  
+}
+
+.contenedorFooter a:hover{
+  color: rgb(167, 201, 15);
+  
+  
+}
+
+
+/*
+===========================================================================
+=================  MEDIA QUERY  ===========================================
+===========================================================================
+*/
+
+@media (max-width:992px) {
+
+  #intro{
+    
+  
+  height: auto;
+  
+}
+
+}
+
